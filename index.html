@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BLOG</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-12">
+  			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark static-top">
+
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  					<span class="navbar-toggler-icon"></span>
+  				</button> <a class="navbar-brand" href="#">TECHIE & BUISSY</a>
+  				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+  					<ul class="navbar-nav ml-md-auto">
+  						<li class="nav-item active">
+  							 <a class="nav-link" href="index.html">HOME</a>
+  						</li>
+              <li class="nav-item active">
+  							 <a class="nav-link" href="#blog">BLOG</a>
+  						</li>
+              <li class="nav-item active">
+  							 <a class="nav-link" href="#contactus">CONTACT US</a>
+  						</li>
+
+  					</ul>
+  				</div>
+  			</nav>
+
+  			<div class="carousel slide" id="carousel-967719" style="margin-top:60px;">
+  				<ol class="carousel-indicators">
+  					<li data-slide-to="0" data-target="#carousel-967719">
+  					</li>
+
+  					<li data-slide-to="2" data-target="#carousel-967719" class="active">
+  					</li>
+  				</ol>
+  				<div class="carousel-inner">
+  					<div class="carousel-item active">
+  						<img class="d-block w-100" alt="Carousel Bootstrap First" src="images/ArduinoUnoBanner.jpg" height="500px"/>
+  						<div class="carousel-caption">
+  							<h4>
+  							Arduino UNO
+  							</h4>
+
+  						</div>
+  					</div>
+
+  					<div class="carousel-item ">
+  						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="images/Banner2.jpg" height="500px" />
+  						<div class="carousel-caption">
+  							<h4>
+  								Arduino UNO
+  							</h4>
+
+  						</div>
+  					</div>
+  				</div>
+          <a class="carousel-control-prev" href="#carousel-967719" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-967719" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+  			</div>
+  		</div>
+  	</div>
+
+<hr/>
+  	<div class="row" id="blog">
+
+  		<div class="col-md-8 offset-md-2">
+  			<h1 class="text-default">
+  			Arduino UNO
+  			</h1>
+        <hr/>
+
+  			<p>
+  			<b>Arduino Uno</b> is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz ceramic resonator (CSTCE16M0V53-R0), a USB connection, a power jack, an ICSP header and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.. You can tinker with your Uno without worrying too much about doing something wrong, worst case scenario you can replace the chip for a few dollars and start over again."Uno" means one in Italian and was chosen to mark the release of Arduino Software (IDE) 1.0. The Uno board and version 1.0 of Arduino Software (IDE) were the reference versions of Arduino, now evolved to newer releases. The Uno board is the first in a series of USB Arduino boards, and the reference model for the Arduino platform; for an extensive list of current, past or outdated boards see the Arduino index of boards.
+  			</p>
+        <p>
+            "Uno" means one in Italian and was chosen to mark the release of Arduino Software (IDE) 1.0. The Uno board and version 1.0 of Arduino Software (IDE) were the reference versions of Arduino, now evolved to newer releases. The Uno board is the first in a series of USB Arduino boards, and the reference model for the Arduino platform; for an extensive list of current, past or outdated boards see the Arduino index of boards.
+          </p>
+          <h1 class="text-default">
+          Background
+          </h1>
+          <p>
+            The Arduino project started at the Interaction Design Institute Ivrea (IDII) in Ivrea, Italy. At that time, the students used a BASIC Stamp microcontroller, at a cost that was a considerable expense for many students. In 2003, Hernando Barragán created the development platform Wiring as a Master's thesis project at IDII, under the supervision of Massimo Banzi and Casey Reas, who are known for work on the Processing language. The project goal was to create simple, low-cost tools for creating digital projects by non-engineers. The Wiring platform consisted of a printed circuit board (PCB) with an ATmega168 microcontroller, an IDE based on Processing, and library functions to easily program the microcontroller. In 2003, Massimo Banzi, with David Mellis, another IDII student, and David Cuartielles, added support for the cheaper ATmega8 microcontroller to Wiring. But instead of continuing the work on Wiring, they forked the project and renamed it Arduino. Early arduino boards used the FTDI USB-to-serial driver chip and an ATmega168. The Uno differed from all preceding boards by featuring the ATmega328P microcontroller and an ATmega16U2 (Atmega8U2 up to version R2) programmed as a USB-to-serial converter.
+          </p>
+          <h1 class="text-default">
+    			Communication
+    			</h1>
+          <p>
+            The Arduino/Genuino Uno has a number of facilities for communicating with a computer, another Arduino/Genuino board, or other microcontrollers. The ATmega328 provides UART TTL (5V) serial communication, which is available on digital pins 0 (RX) and 1 (TX). An ATmega16U2 on the board channels this serial communication over USB and appears as a virtual com port to software on the computer. The 16U2 firmware uses the standard USB COM drivers, and no external driver is needed. However, on Windows, a .inf file is required. Arduino Software (IDE) includes a serial monitor which allows simple textual data to be sent to and from the board. The RX and TX LEDs on the board will flash when data is being transmitted via the USB-to-serial chip and USB connection to the computer (but not for serial communication on pins 0 and 1). A SoftwareSerial library allows serial communication on any of the Uno's digital pins.
+          </p>
+  		</div>
+  	</div>
+  </div>
+
+
+  <footer id="contactus">
+    <div class="row">
+      <div class="col-md-12 bg-dark" style="height:80px; color:#fff; padding-top:30px;">
+          <center>
+            <p> Copyright @ All right reserved </p>
+            </center>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
